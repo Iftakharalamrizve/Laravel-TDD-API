@@ -13,4 +13,6 @@ use Illuminate\Support\Facades\Route;
 | is assigned the "api" middleware group. Enjoy building your API!
 |
 */
-Route::get ('todo-list',[TodoListController::class,'index'])->name ('todo-list.store');
+Route::get ('todo-list',[TodoListController::class,'index'])->name ('todo-list.index');
+Route::get ('todo-list/{list}',[TodoListController::class,'show'])->name ('todo-list.show');
+Route::post ('todo-list',[TodoListController::class,'store'])->name('todo-list.store');
