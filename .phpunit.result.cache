@@ -1,1 +1,0 @@
-{"version":1,"defects":{"Tests\\Feature\\TodoListTest::example":4,"Tests\\Feature\\TodoListTest::storeTodList":3,"Tests\\Feature\\TodoListTest::getTodList":4},"times":{"Tests\\Feature\\TodoListTest::example":0.115,"Tests\\Feature\\TodoListTest::storeTodList":0.131,"Tests\\Feature\\TodoListTest::getTodList":0.155}}
